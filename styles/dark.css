@@ -1,0 +1,18 @@
+
+
+body.theme-dark {
+  background: #000000;
+  color: #ffffff;
+}
+
+body.theme-light {
+  background: #ffffff;
+  color: #111111;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #000000;
+    color: #ffffff;
+  }
+}
