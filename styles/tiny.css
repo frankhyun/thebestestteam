@@ -1,0 +1,23 @@
+@media (width <=374px) {
+    body.debug.wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* remove all other divs */
+    header,
+    aside,
+    div,
+    footer {
+        display: none;
+    }
+
+    /* main first and nav second */
+    main {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+}
