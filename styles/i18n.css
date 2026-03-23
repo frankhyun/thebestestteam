@@ -1,0 +1,17 @@
+/* left to right: default */
+:root {
+    writing-mode: horizontal-tb;
+    direction: ltr;
+    text-orientation: mixed;
+}
+
+/* right to left: arabic & hebrew */
+:root {
+    direction: rtl;
+}
+
+/* vertical right to left: korean, japanese */
+:root {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
